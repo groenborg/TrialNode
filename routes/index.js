@@ -3,7 +3,7 @@ var router = express.Router();
 
 
 router.get('/', function(request ,response){
-    response.send("Hello world");
+    response.render('login.ejs')
 });
 
 
